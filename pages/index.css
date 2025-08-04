@@ -1,7 +1,7 @@
 .page {
   min-width: 1100px;
   max-width: 1600px;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   font-family: Inter, Arial, sans-serif;
   font-size: 16px;
@@ -90,7 +90,7 @@
   bottom: 40px;
 }
 
-.header__paragraph_span {
+.header__paragraph-span {
   position: absolute;
   right: 80px;
   bottom: 40px;
