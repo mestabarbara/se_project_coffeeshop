@@ -2,4 +2,47 @@
   background-color: #0a2850;
   position: relative;
   overflow: hidden;
+  display: flex;
+}
+
+.about__title {
+  margin: 100px 0 0 80px;
+  max-width: 251px;
+  color: #fff;
+  font-family: Inter, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  z-index: 1;
+}
+
+.about__content {
+  margin: 119px 80px 173px auto;
+  max-width: 660px;
+  color: #fff;
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.about__paragraph {
+  margin: 0 0 20px;
+}
+
+.about__paragraph:last-child {
+  margin-bottom: 0;
+}
+
+.about__circle {
+  background-color: #1878dc;
+  width: 426px;
+  height: 426px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 0;
+  left: -129px;
+  top: -152px;
 }
