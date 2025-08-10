@@ -117,7 +117,58 @@
             </div>
           </div>
         </section>
-        <section class="reservation" id="reservation-section"></section>
+
+        <section class="reservation" id="reservation-section">
+          <h2 class="reservation__title">Book a table</h2>
+          <form action="" class="reservation__form">
+            <fieldset class="form__fieldset">
+              <label for="full-name" class="form__label">Name</label>
+              <input
+                id="full-name"
+                type="text"
+                class="form__input"
+                placeholder="Name Surname"
+              />
+
+              <label for="num-guest" class="form__label">
+                Number of guests
+              </label>
+              <input
+                id="num-guest"
+                type="number"
+                class="form__input"
+                placeholder="1-8"
+              />
+
+              <label for="date" class="form__label">Date & time </label>
+              <input id="date" type="datetime-local" class="form__input" />
+
+              <label for="email" class="form__label">Your email</label>
+              <input
+                id="email"
+                type="email"
+                class="form__input"
+                placeholder="email@email.com"
+              />
+            </fieldset>
+
+            <fieldset class="form__fieldset">
+              <button class="form__button" type="submit">Book a table</button>
+
+              <label
+                for="terms-agreement"
+                class="form__label form__label_agreement"
+              >
+                <input
+                  id="terms-agreement"
+                  type="checkbox"
+                  class="form__checkbox"
+                />
+                I agree with the terms of use
+              </label>
+            </fieldset>
+          </form>
+        </section>
         <section class="menu" id="menu-section"></section>
         <section class="about" id="about-section"></section>
       </main>
