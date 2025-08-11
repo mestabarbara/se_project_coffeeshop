@@ -63,10 +63,10 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+  transition: background-color 0.1s linear;
 }
 
 .form__button[type="submit"]:hover {
-  transition: background-color 0.1s linear;
   background-color: #3f96f3;
 }
 
