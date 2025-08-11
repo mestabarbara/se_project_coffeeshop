@@ -11,6 +11,11 @@ This is the second project of the Software Engineering program at TripleTen. It 
 - A custom form
 - CSS animation and transform
 
+![Screenshot of Header](./images/screenshot_header.png)
+![Screenshot of Recipes Section](./images/screenshot_recipes.png)
+![Screenshot of Reservation section](./images/screenshot_reservation.png)
+![Screenshot of about and footer section](./images/screenshot_about_footer.png)
+
 ## Plan on improving the project
 
 ### Important content needed
