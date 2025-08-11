@@ -11,7 +11,7 @@
   display: flex;
 }
 
-.foot__logo {
+.footer__logo {
   margin: 0;
   width: 105px;
   height: 39px;
@@ -20,7 +20,7 @@
   margin: 0 0 0 auto;
 }
 
-.footer_social-heading {
+.footer__social-heading {
   margin: 0 0 20px;
   font-family: Inter, Arial, sans-serif;
   font-style: normal;
