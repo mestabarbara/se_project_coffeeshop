@@ -1,5 +1,4 @@
 .header {
-  display: flexbox;
   background-color: #fff;
   background-image: url(../images/background_header.svg);
   background-repeat: no-repeat;
@@ -44,11 +43,20 @@
   color: #6f6f6f;
 }
 
-.header__paragraph {
+.header__paragraphs {
   position: absolute;
   margin: 0;
   left: 80px;
   bottom: 40px;
+  font-family: Inter, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.header__paragraph {
+  margin: 0;
 }
 
 .header__paragraph-span {
@@ -63,4 +71,9 @@
   right: 5px;
   width: 646px;
   height: 568px;
+}
+
+.content {
+  position: relative;
+  margin: 0;
 }
