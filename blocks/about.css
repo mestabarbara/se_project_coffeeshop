@@ -1,9 +1,9 @@
 .about {
   margin: 0;
   background-color: #0a2850;
-  position: relative;
-  overflow: hidden;
   display: flex;
+  position: relative;
+  z-index: -1;
 }
 
 .about__title {
@@ -27,6 +27,7 @@
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
+  z-index: 1;
 }
 
 .about__paragraph {

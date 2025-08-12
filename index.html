@@ -65,8 +65,8 @@
         />
 
         <div class="header__footer">
-          <div class="header__paragraphs">
-            <p class="header__paragraph">Hours: <br /></p>
+          <div class="header__paragraph">
+            <p class="header__paragraph">Hours:</p>
             <p class="header__paragraph">Monday - Friday (10:00 - 19:00)</p>
             <p class="header__paragraph">Saturday - Sunday (11:00 - 18:00)</p>
           </div>
@@ -89,7 +89,7 @@
               <iframe
                 class="recipes__iframe"
                 src="https://www.youtube.com/embed/j6VlT_jUVPc?si=d1UA5iRfSfkcA1od"
-                title="YouTube video player"
+                title="The Ultimate AeroPress Technique (Episode #3)"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerpolicy="strict-origin-when-cross-origin"
                 allowfullscreen
@@ -104,7 +104,7 @@
               <iframe
                 class="recipes__iframe"
                 src="https://www.youtube.com/embed/st571DYYTR8?si=bd93cFHCXRYp0GqI"
-                title="YouTube video player"
+                title="The Ultimate French Press Technique"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerpolicy="strict-origin-when-cross-origin"
                 allowfullscreen
@@ -128,6 +128,7 @@
                 type="text"
                 class="form__input"
                 placeholder="Name Surname"
+                required
               />
               <label for="num-guest" class="form__label">
                 Number of guests *
@@ -139,28 +140,33 @@
                 placeholder="1-8"
                 min="1"
                 max="8"
+                required
               />
               <label for="date" class="form__label">Date & time *</label>
-              <input id="date" type="datetime-local" class="form__input" />
+              <input
+                id="date"
+                type="datetime-local"
+                class="form__input"
+                required
+              />
               <label for="email" class="form__label">Your email *</label>
               <input
                 id="email"
                 type="email"
                 class="form__input"
                 placeholder="email@email.com"
+                required
               />
             </fieldset>
 
             <fieldset class="form__fieldset">
               <button class="form__button" type="submit">Book a table</button>
-              <label
-                for="terms-agreement"
-                class="form__label form__label_agreement"
-              >
+              <label for="terms-agreement" class="form__label_type_checkbox">
                 <input
                   id="terms-agreement"
                   type="checkbox"
                   class="form__checkbox"
+                  required
                 />
                 I agree with the terms of use
               </label>
@@ -295,7 +301,7 @@
             </ul>
           </div>
         </div>
-        <h4 class="footer__copyright">&copy; 2025 Mary Santabarbara</h4>
+        <p class="footer__copyright">&copy; 2025 Mary Santabarbara</p>
       </footer>
     </div>
   </body>
